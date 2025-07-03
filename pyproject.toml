@@ -1,0 +1,21 @@
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adh-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "nltk>=3.9.1",
+    "openai-agents>=0.1.0",
+    "pypdf>=5.7.0",
+    "requests>=2.32.4",
+    "tiktoken>=0.9.0",
+]
